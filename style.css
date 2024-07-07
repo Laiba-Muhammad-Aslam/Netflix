@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(Images/bg.jpg);
+    height: 100vh;
+    /* opacity: 0.9; */
+    border-bottom: 8px solid grey;
+}
+
+#email{
+    background-color: rgba(36, 34, 34, 0.8);
+    /* background-color: black; */
+    /* background-color: transparent; */
+}
+#email::placeholder{
+    color: grey;
+}
+.borders{
+    border-bottom: 8px solid grey;
+}
